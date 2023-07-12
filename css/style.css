@@ -40,30 +40,6 @@ img{
     background-color: #E9ECEF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:992px) {
     #side_bar{
         width: 160px;
@@ -80,22 +56,4 @@ img{
     .side_bar_lg{
         display: block;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#_header .dropdown-menu{
-    top: 100%;
-    right: 0;
 }
