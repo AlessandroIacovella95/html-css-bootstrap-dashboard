@@ -1,11 +1,22 @@
+img{
+    max-width: 100%;
+}
+
 #_header{
-    height: 100px;
-    background-color: pink;
+    height: 80px;
+}
+
+#_header .only_logo{
+    width: 50px;
+}
+
+#_header ._logo{
+    width: 130px;
 }
 
 #side_bar{
     width: 80px;
-    height:calc(100vh - 100px);
+    height:calc(100vh - 80px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     color: white;
@@ -17,8 +28,16 @@
 
 #top_content{
     width: calc(100% - 80px);
-    height:calc(100vh - 100px);
+    height:calc(100vh - 80px);
     background-color: lightsalmon;
+}
+
+.fa-bell{
+    color: #f49e0b;
+}
+
+.bg_color{
+    background-color: #E9ECEF;
 }
 
 
@@ -61,4 +80,22 @@
     .side_bar_lg{
         display: block;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#_header .dropdown-menu{
+    top: 100%;
+    right: 0;
 }
