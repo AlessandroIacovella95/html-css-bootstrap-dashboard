@@ -66,7 +66,7 @@
     <main id="main_content" class="d-flex">
         <aside id="side_bar" class="side_bar">
             <div class="container-fluid h-100 d-flex flex-column">
-                <div class="d-flex flex-column align-items-center gap-3 mt-5">
+                <div class="d-flex flex-column align-items-center gap-3 mt-4">
                     <i class="fa-solid fa-house fs-4"></i>
                     <i class="fa-solid fa-chart-simple fs-4"></i>
                     <i class="fa-solid fa-signal fs-4"></i>
@@ -104,11 +104,50 @@
             </div>
         </aside>
 
-        <div id="top_content"  class="container-fluid">
+        <div id="top_content">
+            <div class="container-fluid bg_container pt-4">
+                <div class="row">
+                    <div class="d-flex justify-content-lg-end mb-3 col-md-3 col-lg-2 order-md-3">
+                        <a class="text_small me-3 lh-lg" href="#">Nuovo Studente</a>
+                        <button class="_square rounded-2 fs-5 px-2 btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                            +
+                        </button>              
+                    </div>
+                    <div class="mb-2 col-md-4 col-lg-6 order-md-1">
+                        <a class="fs-3 me-2" href="#">Boolean</a>
+                        <a class="_plane text_small" href="#">Piano blaze</a>
+                        <div class="mb-3 d-flex align-items-center">
+                            <a class="_plane text_small" href="#">3 app</a>
+                            <i class="fa-solid fa-angles-right mx-1"></i>
+                            <a class="_plane text_xsmall d-none d-lg-block" href="#">Boolean mobile app</a>
+                            <a class="_plane text_xsmall d-none d-lg-block mx-1" href="#">Boolean web app</a>
+                            <a class="_plane text_xsmall d-none d-lg-block" href="#">Boolean blog app</a>
+                            <div class="_plane plus d-flex d-lg-none">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column col-md-5 col-lg-4 order-md-2">
+                        <span class="mb-1 text_small">Studenti online negli ultimi 30 minuti</span>
+                        <span class="fs-2 pb-4">125</span>
+                    </div>
+                </div>
+            </div>
 
+            <div class="container-fluid">
+
+            </div>
         </div>
     </main>
-      
+    
+    
+    
+
+    
+    
+    
+    
+    
 
 
 
@@ -118,20 +157,22 @@
 
 
 
+    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    <!-- OFFCANVAS -->
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            I will not close if you click outside of me.
+          </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

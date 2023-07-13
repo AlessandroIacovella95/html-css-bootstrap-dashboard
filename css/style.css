@@ -3,7 +3,13 @@ img{
 }
 
 #_header{
+    background-color: white;
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 #_header .only_logo{
@@ -20,16 +26,30 @@ img{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     color: white;
+    overflow-y: auto;
 }
 
 .side_bar_lg{
     display: none;
 }
 
+#_header + * {
+    margin-top: 80px;
+}
+
 #top_content{
     width: calc(100% - 80px);
     height:calc(100vh - 80px);
-    background-color: lightsalmon;
+    overflow-y: auto;
+}
+
+#top_content .bg_container a{
+    text-decoration: none; 
+    color: white;   
+}
+
+#top_content .bg_container{
+    color: white;
 }
 
 .fa-bell{
@@ -38,6 +58,53 @@ img{
 
 .bg_color{
     background-color: #E9ECEF;
+}
+
+.bg_container{
+    background-color: #1B72E8;
+}
+
+.text_small{
+    font-size: .75rem;
+    white-space: nowrap;
+}
+
+.text_xsmall{
+    font-size: .7rem;
+    white-space: nowrap;
+}
+
+._plane{
+    background-color: #165BBA;
+    padding: .1rem .70rem;
+    border-radius: 1rem;
+}
+
+.plus{
+    height: 25px;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    line-height: 19px;
+}
+
+._square{
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.offcanvas.offcanvas-end{
+    width: 100%;
+    max-width: 768px;
+}
+
+#top_content .fa-angles-right{
+    font-size: .75rem;
 }
 
 @media screen and (min-width:992px) {
