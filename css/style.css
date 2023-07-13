@@ -127,6 +127,15 @@ img{
     font-weight: 400;
 }
 
+.table .col_large{
+    text-align: left;
+    width: 40%;
+}
+
+.col_medium{
+    width: 25%;
+}
+
 @media screen and (min-width:992px) {
     #side_bar{
         width: 160px;
