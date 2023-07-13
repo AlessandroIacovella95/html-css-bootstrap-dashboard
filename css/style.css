@@ -103,6 +103,14 @@ img{
     max-width: 768px;
 }
 
+.btn-warning{
+    min-width: 60px;
+}
+
+.btn-success{
+    min-width: 60px;
+}
+
 #top_content .fa-angles-right{
     font-size: .75rem;
 }
