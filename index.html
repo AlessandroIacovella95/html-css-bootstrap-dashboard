@@ -136,7 +136,7 @@
 
             <div class="container-fluid mt-4">
                 <div class="row g-3">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-lg-8">
                         <div class="card">
                             <div class="card-header fw-bold">Prossime classi</div>
                             <table class="table text-center mt-3">
@@ -351,11 +351,33 @@
                               </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        
-                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Todo
+                            </div>
+                            <div class="d-flex align-items-center my-2 ps-2 border-bottom">
+                                <input type="checkbox" name="todo-selection" id="todo-selection" required>
+                                <label for="todo-selection" class="text_small ms-1">Kickoff nuove classi</label>
+                            </div>
+                            <div class="d-flex align-items-center my-2 ps-2 border-bottom">
+                                <input type="checkbox" name="todo-selection2" id="todo-selection2" required>
+                                <label for="todo-selection2" class="text_small ms-1">Lezione su Boostrap 5 in classe #75</label>
+                            </div>
+                            <div class="d-flex align-items-center my-2 ps-2 border-bottom">
+                                <input type="checkbox" name="todo-selection3" id="todo-selection3" required>
+                                <label for="todo-selection3" class="text_small ms-1">Controllare username github studenti</label>
+                            </div>
+                        </div>
+                        <div class="card mt-3">
+                            <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Utenti Attivi</h5>
+                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </div>
@@ -436,8 +458,7 @@
                       <div class="col-12">
                           <label for="photo" class="form-label">Foto</label>
                           <div class="input-group mb-3">
-                              <button class="btn btn-outline-secondary text_xsmall" type="button" id="button-addon1">Scegli file</button>
-                              <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                              <input type="file" class="form-control" name="photo" id="photo" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                           </div>
                       </div>
                       <div class="col-12 d-flex align-items-center">
