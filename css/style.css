@@ -115,6 +115,18 @@ img{
     font-size: .75rem;
 }
 
+.card-header{
+    padding-left: .5rem;
+}
+
+.class_avatar{
+    width: 28px;
+}
+
+.badge{
+    font-weight: 400;
+}
+
 @media screen and (min-width:992px) {
     #side_bar{
         width: 160px;
