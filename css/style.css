@@ -1,7 +1,9 @@
+/* RESET */
 img{
     max-width: 100%;
 }
 
+/* HEADER */
 #_header{
     background-color: white;
     height: 80px;
@@ -20,6 +22,21 @@ img{
     width: 130px;
 }
 
+#_header + * {
+    margin-top: 80px;
+}
+
+/* CAMPANELLA NAVBAR*/
+.fa-bell{
+    color: #f49e0b;
+}
+
+/* BARRA DI RICERCA NAVBAR */
+.bg_color{
+    background-color: #E9ECEF;
+}
+
+/* SIDEBAR */
 #side_bar{
     width: 80px;
     height:calc(100vh - 80px);
@@ -33,10 +50,7 @@ img{
     display: none;
 }
 
-#_header + * {
-    margin-top: 80px;
-}
-
+/* TOP CONTENT */
 #top_content{
     width: calc(100% - 80px);
     height:calc(100vh - 80px);
@@ -52,28 +66,12 @@ img{
     color: white;
 }
 
-.fa-bell{
-    color: #f49e0b;
-}
-
-.bg_color{
-    background-color: #E9ECEF;
-}
-
+/* HEADER TOP CONTENT */
 .bg_container{
     background-color: #1B72E8;
 }
 
-.text_small{
-    font-size: .75rem;
-    white-space: nowrap;
-}
-
-.text_xsmall{
-    font-size: .7rem;
-    white-space: nowrap;
-}
-
+/* PULSANTI HEADER TOP CONTENT */
 ._plane{
     background-color: #165BBA;
     padding: .1rem .70rem;
@@ -98,11 +96,28 @@ img{
     padding-bottom: 10px;
 }
 
+#top_content .fa-angles-right{
+    font-size: .75rem;
+}
+
+/* DIMENSIONI TESTO EXTRA */
+.text_small{
+    font-size: .75rem;
+    white-space: nowrap;
+}
+
+.text_xsmall{
+    font-size: .7rem;
+    white-space: nowrap;
+}
+
+/* OFFCANVAS */
 .offcanvas.offcanvas-end{
     width: 100%;
     max-width: 768px;
 }
 
+/* PULSANTI OFFCANVAS */
 .btn-warning{
     min-width: 60px;
 }
@@ -111,9 +126,7 @@ img{
     min-width: 60px;
 }
 
-#top_content .fa-angles-right{
-    font-size: .75rem;
-}
+/* CARD */
 
 .card-header{
     padding-left: .5rem;
@@ -144,6 +157,8 @@ img{
     font-size: .8rem;
 }
 
+
+/* MEDIA QUERY */
 @media screen and (min-width:992px) {
     #side_bar{
         width: 160px;

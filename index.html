@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- META-LINK -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
     <title>Boolean Responsive</title>
+    <!-- LINK FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header id="_header">
+        <!-- CONTAINER FLUID NAVBAR -->
         <div class="container-fluid h-100">
+            <!-- NAVBAR -->
             <nav class="navbar navbar-expand-lg bg-light h-100">
                 <a class="navbar-brand d-lg-none" href="#">
+                    <!-- LOGO-MOBILE -->
                     <img class="only_logo" src="./img/mobile-logo.png" alt="">
                 </a>
                 <a class="navbar-brand d-none d-lg-block" href="#">
+                    <!-- LOGO -->
                     <img class="" src="./img/logo.svg" alt="">
                 </a>
+                <!-- BARRA DI RICERCA -->
                 <form class="d-flex flex-grow-1 d-lg-none" role="search">
                     <div class="input-group">
                         <span class="input-group-text border-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control bg_color border-0 px-0" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                 </form>
+                <!-- BOTTONE CAMPANELLINA -->
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                    <i class="fa-solid fa-bell"></i>
                 </button>
@@ -34,19 +46,24 @@
                             <input type="text" class="form-control bg_color border-0 px-0" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                     </form>
+                    <!-- LINK UL DROPDOWN -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <!-- PORTFOLIO -->
                         <li class="nav-item">
                             <a class="dropdown-item d-lg-none fs-6" href="#"><i class="fa-solid fa-user fs-6"></i> Profilo</a>
                             <a class="nav-link d-none d-lg-block" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
                         </li>
+                        <!-- FATTURAZIONE -->
                         <li class="nav-item">
                             <a class="dropdown-item d-lg-none fs-6" href="#"><i class="fa-solid fa-file-invoice fs-6"></i> Fatturazione</a>
                             <a class="nav-link d-none d-lg-block" href="#"><i class="fa-solid fa-circle-question"></i></a>
                         </li>
+                        <!-- LOGOUT -->
                         <li class="nav-item">
                             <a class="dropdown-item d-lg-none fs-6" href="#"><i class="fa-solid fa-right-from-bracket fs-6"></i> Logout</a>
                             <a class="nav-link d-none d-lg-block" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
+                        <!-- CAMPANELLINA E LINK -->
                         <li class="nav-item dropdown d-none d-lg-block">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell"></i>
@@ -62,40 +79,48 @@
             </nav>
         </div>
     </header>
-
+    <!-- MAIN-CONTENT -->
     <main id="main_content" class="d-flex">
+        <!-- SIDEBAR -->
         <aside id="side_bar" class="side_bar">
+            <!-- CONTAINER FLUID SIDEBAR -->
             <div class="container-fluid h-100 d-flex flex-column">
+                <!-- ICONE TOP SIDEBAR -->
                 <div class="d-flex flex-column align-items-center gap-3 mt-4">
                     <i class="fa-solid fa-house fs-4"></i>
                     <i class="fa-solid fa-chart-simple fs-4"></i>
                     <i class="fa-solid fa-signal fs-4"></i>
-
                 </div>
+                <!-- ICONA BOTTOM SIDEBAR -->
                 <div class="d-flex justify-content-center mt-auto mb-5">
                     <i class="fa-solid fa-gear fs-4"></i>
                 </div>
             </div>
         </aside>
-
+        <!-- SIDEBAR LG -->
         <aside id="side_bar" class="side_bar_lg">
             <div class="container-fluid h-100 d-flex flex-column">
+                <!-- CONTAINER FLUID LG -->
                 <div class="d-flex flex-column align-items-start gap-4 mt-4">
+                    <!-- ICONA HOME -->
                     <div class="d-flex align-items-center gap-3">
                         <i class="fa-solid fa-house fs-5"></i>
                         <span class="fw-bold fs-6">Home</span>
                     </div>
                     <div class="d-flex align-items-center gap-3">
+                        <!-- ICONA STATS -->
                         <i class="fa-solid fa-chart-simple fs-4"></i>
                         <span class="fw-bold fs-6">Stats</span>
                     </div>
                     <div class="d-flex align-items-center gap-3">
+                        <!-- ICONA SIGNALS -->
                         <i class="fa-solid fa-signal fs-5"></i>
                         <span class="fw-bold fs-6">Signals</span>
                     </div>
 
                 </div>
                 <div class="d-flex justify-content-start mt-auto mb-4">
+                    <!-- ICONA ADMIN -->
                     <div class="d-flex align-items-center gap-3">
                         <i class="fa-solid fa-gear fs-5"></i>
                         <span class="fw-bold fs-6">Admin</span>
@@ -103,16 +128,21 @@
                 </div>
             </div>
         </aside>
-
+        <!-- TOP CONTENT -->
         <div id="top_content">
+            <!-- CONTAINER FLUID TOP CONTENT -->
             <div class="container-fluid bg_container pt-4">
+                <!-- ROW -->
                 <div class="row">
+                    <!-- COL -->
                     <div class="d-flex justify-content-lg-end mb-3 col-md-3 col-lg-2 order-md-3">
+                        <!-- AGGIUNTA NUOVO STUDENTE -->
                         <a class="text_small me-3 lh-lg" href="#">Nuovo Studente</a>
                         <button class="_square rounded-2 fs-5 px-2 btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                             +
                         </button>              
                     </div>
+                    <!-- SEZIONE BOOLEAN APP -->
                     <div class="mb-2 col-md-4 col-lg-6 order-md-1">
                         <a class="fs-3 me-2" href="#">Boolean</a>
                         <a class="_plane text_small" href="#">Piano blaze</a>
@@ -127,16 +157,19 @@
                             </div>
                         </div>
                     </div>
+                    <!-- SEZIONE STUDENTI ONLINE -->
                     <div class="d-flex flex-column col-md-5 col-lg-4 order-md-2">
                         <span class="mb-1 text_small">Studenti online negli ultimi 30 minuti</span>
                         <span class="fs-2 pb-4">125</span>
                     </div>
                 </div>
             </div>
-
+            
             <div class="container-fluid mt-4">
                 <div class="row g-3">
+                    <!-- PRIMA COL -->
                     <div class="col-12 col-lg-8">
+                        <!-- CARD TABLE -->
                         <div class="card">
                             <div class="card-header fw-bold">Prossime classi</div>
                             <table class="table text-center mt-3">
@@ -313,6 +346,7 @@
                               </tbody>
                             </table>
                         </div>
+                        <!-- CARD ACCORDION -->
                         <div class="card mt-3">
                             <div class="card-header">
                               F.A.Q
@@ -351,7 +385,9 @@
                               </div>
                         </div>
                     </div>
+                    <!-- SECONDA COL -->
                     <div class="col-12 col-lg-4">
+                        <!-- CARD TODO -->
                         <div class="card">
                             <div class="card-header">
                                 Todo
@@ -369,6 +405,7 @@
                                 <label for="todo-selection3" class="text_small ms-1">Controllare username github studenti</label>
                             </div>
                         </div>
+                        <!-- CARD GRAPHIC -->
                         <div class="card mt-3">
                             <img class="border-bottom" src="./img/stats.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -385,28 +422,7 @@
             </div>
         </div>
     </main>
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-    
-
-
-    
+   
     <!-- OFFCANVAS -->
     <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
         <div class="offcanvas-header">
@@ -475,6 +491,7 @@
           </div>
         </div>
     </div>
+    <!-- LINK SCRIPT -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
