@@ -104,22 +104,22 @@
                 <div class="d-flex flex-column align-items-start gap-4 mt-4">
                     <!-- ICONA HOME -->
                     <div class="d-flex align-items-center gap-3">
-                        <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-house fs-5"></i><span class="ms-3 fw-bold fs-6">Home</span></a>
+                        <a class="text-light text-decoration-none" href="#"><span class="icon_side"><i class="fa-solid fa-house fs-5"></i></span><span class="ms-2 fw-bold fs-6">Home</span></a>
                     </div>
                     <!-- ICONA STATS -->
                     <div class="d-flex align-items-center gap-3">
-                        <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-chart-simple fs-4"></i><span class="ms-3 fw-bold fs-6">Stats</span></a>
+                        <a class="text-light text-decoration-none" href="#"><span class="icon_side"><i class="fa-solid fa-chart-simple fs-4"></i></span><span class="ms-2 fw-bold fs-6">Stats</span></a>
                     </div>
                     <!-- ICONA SIGNALS -->
                     <div class="d-flex align-items-center gap-3">
-                        <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-signal fs-5"></i><span class="ms-3 fw-bold fs-6">Signals</span></a>
+                        <a class="text-light text-decoration-none" href="#"><span class="icon_side"><i class="fa-solid fa-signal fs-5"></i></span><span class="ms-2 fw-bold fs-6">Signals</span></a>
                     </div>
 
                 </div>
                 <!-- ICONA ADMIN -->
                 <div class="d-flex justify-content-start mt-auto mb-4">
                     <div class="d-flex align-items-center gap-3">
-                        <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-gear fs-5"></i><span class="ms-3 fw-bold fs-6">Admin</span></a>
+                        <a class="text-light text-decoration-none" href="#"><span class="icon_side"><i class="fa-solid fa-gear fs-5"></i></span><span class="ms-2 fw-bold fs-6">Admin</span></a>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                     <!-- COL -->
                     <div class="d-flex justify-content-lg-end mb-3 col-md-3 col-lg-2 order-md-3">
                         <!-- AGGIUNTA NUOVO STUDENTE -->
-                        <a class="text_small me-3 lh-lg" href="#">Nuovo Studente</a>
+                        <a type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" class="text_small me-3 lh-lg">Nuovo Studente</a>
                         <button class="_square rounded-2 fs-5 px-2 btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                             +
                         </button>              
@@ -173,19 +173,16 @@
                                 <tr>
                                   <th class="col_large" scope="col">Nome</th>
                                   <th class="d-none d-md-table-cell col_medium" scope="col">Data di inizio</th>
-                                  <th class="d-none d-md-table-cell" scope="col">ROI</th>
-                                  <th scope="col">Stato</th>
+                                  <th class="d-none d-md-table-cell text-start" scope="col">ROI</th>
+                                  <th class="text-start" scope="col">Stato</th>
                                   <th class="col_medium" scope="col">Azioni</th>
                                 </tr>
                               </thead>
-                              <tbody>
+                              <tbody class="text-start">
                                 <tr>
                                   <td>
-                                    <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                        <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                        <span class="text_small fw-bold me-1">Classe</span>
-                                        <span class="text_small fw-bold">75</span>
-                                    </div>
+                                    <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 75</span> 
                                   </td>
                                   <td class="d-none d-md-table-cell"><span>15 Feb 2021</span></td>
                                   <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -201,11 +198,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">76</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 76</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>16 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -221,11 +215,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">77</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 77</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>17 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -241,11 +232,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">78</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 78</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>18 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -261,11 +249,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">79</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 79</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>19 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -281,11 +266,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">80</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 80</span>                        
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>20 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -301,11 +283,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">81</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 81</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>21 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -321,11 +300,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="class_avatar d-flex flex-column align-items-start flex-sm-row align-items-sm-center">
-                                            <img  class="me-2" src="./img/class-avatar.jpg" alt="">                  
-                                            <span class="text_small fw-bold me-1">Classe</span>
-                                            <span class="text_small fw-bold">82</span>
-                                        </div>
+                                        <img  class="me-1 img_size" src="./img/class-avatar.jpg" alt="">                  
+                                        <span class="text_small fw-bold">Classe 82</span> 
                                     </td>
                                     <td class="d-none d-md-table-cell"><span>22 Feb 2021</span></td>
                                     <td class="d-none d-md-table-cell"><span>20%</span></td>
@@ -452,11 +428,11 @@
                           <label for="address" class="form-label">Indirizzo</label>
                           <input type="text" class="form-control" name="address" id="address" required>
                       </div>
-                      <div class="col-6">
+                      <div class="col-md-6">
                           <label for="city" class="form-label">Città</label>
                           <input type="text" class="form-control" name="city" id="city" required>
                       </div>
-                      <div class="col-4">
+                      <div class="col-md-4">
                           <label for="state" class="form-label">Stato</label>
                               <select class="form-control" name="state" id="state">
                               <option value="">Scegli...</option>
@@ -466,7 +442,7 @@
                               <option value="germania">Germania</option>
                           </select>
                       </div>
-                      <div class="col-2">
+                      <div class="col-md-2">
                           <label for="cap" class="form-label">Cap</label>
                           <input type="text" class="form-control" name="cap" id="cap" required>
                       </div>
