@@ -56,6 +56,10 @@ img{
     text-align: center;
 }
 
+.size{
+    width: 110px;
+}
+
 /* TOP CONTENT */
 #top_content{
     width: calc(100% - 80px);
@@ -183,7 +187,6 @@ img{
 /* SIDEBAR */
 .side_bar_lg a:hover{
     background-color: gray;
-    padding: 3px;
 }
 
 /* TABLE */
